@@ -1,5 +1,7 @@
 [![License](by-nc-sa.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/) 
+DOI of this repository:  
 
+[![DOI](https://zenodo.org/badge/657178211.svg)](https://zenodo.org/badge/latestdoi/657178211)
 
 # Incorporating spatial information for regionalization of environmental parameters in machine learning models
 This repository enables you to perform the calculations shown in the manuscript: "Comin soon"
