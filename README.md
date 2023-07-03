@@ -11,7 +11,9 @@ Contact: marc.ohmer@kit.edu
 
 ORCIDs of authors:  
 M. Ohmer: [0000-0002-2322-335X](https://orcid.org/0000-0002-2322-335X)
+
 F. Doll: [0009-0003-5455-7162](https://orcid.org/0009-0003-5455-7162)
+
 T. Liesch: [0000-0001-8648-5333](https://orcid.org/0000-0001-8648-5333)  
 
 For a detailed description please refer to the publication. Please adapt all absolute loading/saving and software paths within the scripts to make them running, you need Python software for a successful application.
