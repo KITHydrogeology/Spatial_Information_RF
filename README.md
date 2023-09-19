@@ -1,43 +1,58 @@
-<p align="center">
-  <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
-    <img src="by-nc-sa.svg" alt="License" width="80">
-  </a>
-</p>
+[![License](by-nc-sa.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+Instructions for installation are below
 
-# Incorporating Spatial Information for Regionalization of Environmental Parameters in Machine Learning Models
+DOI of this repository:  
 
-Welcome to the repository that empowers you to perform the calculations showcased in the manuscript "Coming Soon."
+[![DOI](https://zenodo.org/badge/657178211.svg)](https://zenodo.org/badge/latestdoi/657178211)
 
-**Contact:** [marc.ohmer@kit.edu](mailto:marc.ohmer@kit.edu)
+# Incorporating spatial information for regionalization of environmental parameters in machine learning models
+This repository enables you to perform the calculations shown in the manuscript: "Comin soon"
 
-**ORCIDs of Authors:**  
-- M. Ohmer: [0000-0002-2322-335X](https://orcid.org/0000-0002-2322-335X)
-- F. Doll: [0009-0003-5455-7162](https://orcid.org/0009-0003-5455-7162)
-- T. Liesch: [0000-0001-8648-5333](https://orcid.org/0000-0001-8648-5333)
+Contact: marc.ohmer@kit.edu
 
-![Sample Image](ga1.png)
+ORCIDs of authors:  
+M. Ohmer: [0000-0002-2322-335X](https://orcid.org/0000-0002-2322-335X)  
+F. Doll: [0009-0003-5455-7162](https://orcid.org/0009-0003-5455-7162)  
+T. Liesch: [0000-0001-8648-5333](https://orcid.org/0000-0001-8648-5333)  
 
-For a comprehensive description, please refer to our publication. Make sure to adapt all absolute loading/saving and software paths within the scripts to ensure their proper execution. You will need Python software for a successful application.
+<img src="ga1.png" alt="Bildbeschreibung" width="500" height="400">
+
+For a detailed description please refer to the publication. Please adapt all absolute loading/saving and software paths within the scripts to make them running, you need Python software for a successful application.
 
 ## Installation
+To use the code and scripts in this repository, you'll need to install the required libraries and dependencies. You can do this by creating a virtual environment and using the `requirements.txt` file. Here are the steps:
 
-To utilize the code and scripts in this repository, you'll need to install the necessary libraries and dependencies. You can achieve this by creating a virtual environment and using the `requirements.txt` file. Follow these steps:
+1. Create a virtual environment (optional but recommended):
 
-<details>
-<summary>1. Create a Virtual Environment (Optional but Recommended)</summary>
-
-```bash
 python -m venv spatialinfo
-</details>
-<details>
-<summary>2. Activate the Virtual Environment (Unix/Linux)</summary>
-source spatialinfo/bin/activate
-</details>
-<details>
-<summary>2. Activate the Virtual Environment (Windows)</summary>
-spatialinfo\Scripts\activate
-</details>
-<details>
-<summary>3. Install the Required Libraries from the `requirements.txt` File</summary>
+3. Activate the virtual environment:
+source spatialinfo/bin/activate # On Unix/Linux
+spatialinfo\Scripts\activate # On Windows
+4. Install the required libraries from the `requirements.txt` file:  
 pip install -r requirements.txt
-</details>
+
+## Usage
+
+This repository includes the following main Python scripts:
+- `RF.py`: The main script for conducting spatial analysis and prediction using Random Forest.
+- `general_functions.py`: Contains general utility functions.
+- `plotting_functions.py`: Contains functions for data visualization.
+- `spatial_feature_functions.py`: Contains functions for extracting spatial features.
+
+To run the analysis, you can use the `RF.py` script as follows:
+python RF.py
+
+Please refer to the script documentation and comments for more details on how to use them effectively.
+
+
+## Contributions
+
+Contributions to this project are welcome! If you find issues, have suggestions, or want to contribute new features, please open an issue or submit a pull request.
+
+Feel free to contact us with any questions or feedback.
+
+```python
+
+Hier ist Ihr Python-Code
+print("Hallo, Welt!")
+```
