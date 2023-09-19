@@ -24,6 +24,7 @@ To use the code and scripts in this repository, you'll need to install the requi
 
 1. Create a virtual environment (optional but recommended):
    
+   
 python -m venv spatialinfo
 
 3. Activate the virtual environment:
