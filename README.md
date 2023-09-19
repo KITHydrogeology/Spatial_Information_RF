@@ -23,13 +23,18 @@ For a detailed description please refer to the publication. Please adapt all abs
 To use the code and scripts in this repository, you'll need to install the required libraries and dependencies. You can do this by creating a virtual environment and using the `requirements.txt` file. Here are the steps:
 
 1. Create a virtual environment (optional but recommended):
-
+```python
 python -m venv spatialinfo
-3. Activate the virtual environment:
+```
+2. Activate the virtual environment:
+```python
 source spatialinfo/bin/activate # On Unix/Linux
 spatialinfo\Scripts\activate # On Windows
-4. Install the required libraries from the `requirements.txt` file:  
+```
+3. Install the required libraries from the `requirements.txt` file:
+```python
 pip install -r requirements.txt
+```
 
 ## Usage
 
@@ -52,7 +57,4 @@ Contributions to this project are welcome! If you find issues, have suggestions,
 Feel free to contact us with any questions or feedback.
 
 ```python
-
-Hier ist Ihr Python-Code
-print("Hallo, Welt!")
 ```
