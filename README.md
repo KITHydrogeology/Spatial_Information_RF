@@ -34,7 +34,7 @@ spatialinfo\Scripts\activate # On Windows
 3. Install the required libraries from the `requirements.txt` file:
 ```python
 pip install -r requirements.txt
-```
+```  
 
 ## Usage
 
