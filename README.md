@@ -55,6 +55,3 @@ Please refer to the script documentation and comments for more details on how to
 Contributions to this project are welcome! If you find issues, have suggestions, or want to contribute new features, please open an issue or submit a pull request.
 
 Feel free to contact us with any questions or feedback.
-
-```python
-```
